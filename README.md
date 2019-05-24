@@ -1,7 +1,6 @@
 # VueJs Course progress with The Net Ninja
+#### Udemy Course by The Net Ninja
 ___
-
-### Udemy Course by The Net Ninja
 
 
 ## Create a VUE Instance in app.js
