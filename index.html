@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <style>
+        .one {
+            color: green;
+        }
+
+        .two {
+            text-decoration: line-through;
+        }
+    </style>
     <title>Vue Course</title>
 </head>
 
@@ -14,6 +23,9 @@
     <div id="app">
         <h2>{{ title }}</h2>
         <p>{{ greet( 'morning' ) }}</p>
+        <a v-bind:href="url" target="blank">YouTube</a>
+        <div v-bind:class="classes">Classes from Instance</div>
+        <input type="text" v-bind:value="name">
 
     </div>
 
