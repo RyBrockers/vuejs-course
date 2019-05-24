@@ -3,7 +3,7 @@
 ### Udemy Course by The Net Ninja
 
 
-## Create a VUE Instance
+## Create a VUE Instance in app.js
 
 ```
 new Vue({
@@ -14,7 +14,7 @@ new Vue({
 })
 ```
 
-### The HTML looks like this
+### The HTML looks like this in index.html
 
 ```
 <!DOCTYPE html>
