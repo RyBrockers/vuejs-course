@@ -14,11 +14,12 @@
 <body>
     <div id="events">
         <h2>{{ title }}</h2>
-        <!-- <p>I earn {{ wage }} pounds per hour</p>
+        <p>I earn {{ wage }} pounds per hour</p>
         <button v-on:click="changeWage(1)">Increase wage by 1 pound</button>
         <button v-on:click="changeWage(-1)">Decrease wage by 1 pound</button>
         <button v-on:dblclick="changeWage(10)">Increase wage by 10 pounds</button>
-        <button v-on:dblclick="changeWage(-10)" class="button">Decrease wage by 10 pounds</button> -->
+        <button v-on:dblclick="changeWage(-10)" class="button">Decrease wage by 10 pounds</button>
+        <button @click="logEvent">Log Event Info</button>
 
 
 

@@ -9,5 +9,9 @@ new Vue({
         // changeWage: function (amount) {
         //     this.wage += amount
         // }
+
+        logEvent(event) {
+            console.log(event);
+        }
     }
 })
