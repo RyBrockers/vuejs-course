@@ -12,7 +12,10 @@
 <body>
     <div id="app">
         <h2>{{ title }}</h2>
-        <button @click='logMessage()'>Click Me</button>
+        <button @click.alt='logMessage()'>Click Me</button>
+        <button @click.shift='logMessage()'>Click Me</button>
+        <a href="http://www.google.com" @click.prevent='logMessage()'>Google</a>
+
     </div>
     <script src="./modifiers.js"></script>
 
